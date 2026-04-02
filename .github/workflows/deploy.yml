@@ -20,5 +20,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
+                        ghcr.io/zytow/ltx23-i2v-worker:latest
+                        ghcr.io/zytow/ltx23-i2v-worker:${{ github.sha }}

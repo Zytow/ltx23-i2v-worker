@@ -1,0 +1,10 @@
+runpod>=1.7.0
+torch>=2.6.0
+diffusers>=0.33.0
+transformers>=4.50.0
+accelerator>=0.34.0
+Pillow>=10.0.0
+imageio
+imageio-ffmpeg
+sentencepiece
+huggingface_hub

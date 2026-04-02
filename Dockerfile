@@ -1,4 +1,4 @@
-FROM runpod/pytorch:2.6.0-py3.11-cuda12.6.3-devel-ubuntu22.04
+FROM runpod/pytorch:1.0.3-cu1290-torch260-ubuntu2204
 
 RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
 
